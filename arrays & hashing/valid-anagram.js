@@ -2,11 +2,11 @@
 
 // An anagram is a string that contains the exact same characters as another string, but the order of the characters can be different.
 
-// const s = "racecar";
-// const t = "carecar";
+const s = "racecar";
+const t = "carecar";
 
-const s = "anagraeem";
-const t = "nagaram";
+// const s = "anagraeem";
+// const t = "nagaram";
 
 function isAnagram(s, t) {
     if (s.length !== t.length) {
