@@ -23,7 +23,9 @@
 // 0 <= strs[i].length <= 100
 // strs[i] is made up of lowercase English letters.
 
-const strs = ["act", "pots", "tops", "cat", "stop", "hat"];
+// const strs = ["act", "pots", "tops", "cat", "stop", "hat"];
+// const strs = ["x"];
+const strs = [""];
 
 function groupAnagrams(strs) {
     const anagramMap = new Map();
