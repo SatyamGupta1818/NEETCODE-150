@@ -34,9 +34,12 @@
 
 
 
-// const nums = [3, 4, 5, 6];
-const nums = [4,5,6];
-const target = 10;
+const nums = [3, 4, 5, 6];
+// const nums = [4,5,6];
+// const nums = [5,5];
+const target = 7;
+// const target = 10;
+// const target = 10;
 
 function twoSum(nums, target) {
     const numMap = new Map();
