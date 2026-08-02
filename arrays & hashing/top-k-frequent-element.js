@@ -26,8 +26,11 @@
 // 1 <= k <= number of distinct elements in nums.
 
 
-const nums = [1, 2, 2, 3, 3, 3];
-const k = 2;
+// const nums = [1, 2, 2, 3, 3, 3];
+// const k = 2;
+
+const nums = [7, 7];
+const k = 1;
 
 function topKFrequent(nums, k) {
     const frequencyMap = new Map();
