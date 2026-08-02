@@ -53,7 +53,8 @@
 // 0 <= strs[i].length < 200
 // strs[i] contains any possible characters out of 256 valid ASCII characters.
 
-const strs = ["Hello", "World"];
+// const strs = ["Hello", "World"];
+const strs = [""];
 
 function encode(strs) {
     return strs.map(str => str.length + '#' + str).join('');
